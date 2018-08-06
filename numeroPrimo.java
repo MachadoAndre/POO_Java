@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  * Verifica se um número é primo ou não.
  * 
@@ -7,7 +8,10 @@
 public class numerosPrimos
 {
     public static void main(String[] args){
-        int numero=7,i=2;
+        
+        Scanner entrada = new Scanner(System.in);
+        int numero = entrada.nextInt(),i=2;
+        
         String resposta;
         
         while(numero%i!=0){i++;}
