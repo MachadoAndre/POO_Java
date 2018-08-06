@@ -1,6 +1,7 @@
- * @author André Machado 
- * @version 06/08/2018
- */
+/**
+  * @author André Machado 
+  * @version 06/08/2018
+  */
 public class Numeros
 {
     // Função Principal em Java
