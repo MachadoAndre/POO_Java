@@ -1,6 +1,5 @@
 public class Numeros
 {
-    // Função Principal em Java
     public static void main(String[] args){
         int numeroPerfeito = 0;
         int numero = 2;
