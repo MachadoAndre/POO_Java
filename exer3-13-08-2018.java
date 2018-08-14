@@ -11,7 +11,7 @@ class exerc3 {
         int termoRequirido = 30,termo1 = 0, termo2 = 1,aux; 
         for(int indice=0;indice<termoRequirido;indice++){
             System.out.print(termo1 + " "); 
-            verificaPrimo(termo1);
+            verificaPrimo(termo1); 
             aux = termo1;
             termo1 = termo2;
             termo2 = aux + termo2;
